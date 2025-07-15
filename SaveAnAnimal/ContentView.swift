@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        NavigationStack{
+            VStack {
             HStack{
                 Text("SAVE AN ANIMAL")
                     .font(.largeTitle)
@@ -24,23 +25,34 @@ struct ContentView: View {
                 Spacer()
             }
             HStack{
-            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
                 Spacer()
             }
             
-                Spacer()
+            Spacer()
                 .frame(height: 40.0)
+            
             HStack{
-                   
+                
                 Text("LIST OF ENDANGERED ANIMALS:")
                 Spacer()
             }
             Spacer()
-                .frame(height: 15.0)
+                .frame(height: 10.0)
             HStack {
                 Text("-")
-                Button("ANIMAL ONE") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                NavigationLink(destination: AnimalOneView()){
+                    Text("ANIMAL ONE")
+                }
+             
+                Spacer()
+            }
+            Spacer()
+                .frame(height: 5.0)
+            HStack {
+                Text("-")
+                NavigationLink(destination: AnimalTwoView()){
+                    Text("ANIMAL TWO")
                 }
                 Spacer()
             }
@@ -48,8 +60,8 @@ struct ContentView: View {
                 .frame(height: 5.0)
             HStack {
                 Text("-")
-                Button("ANIMAL TWO") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                NavigationLink(destination: AnimalThreeView()){
+                    Text("ANIMAL THREE")
                 }
                 Spacer()
             }
@@ -57,28 +69,8 @@ struct ContentView: View {
                 .frame(height: 5.0)
             HStack {
                 Text("-")
-                Button("ANIMAL THREE") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                Spacer()
-            }
-            Spacer()
-                .frame(height: 5.0)
-            HStack {
-                Text("-")
-                Button("ANIMAL FOUR") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-                Spacer()
-            }
-            
-            Spacer()
-                .frame(height: 5.0)
-            
-            HStack {
-                Text("-")
-                Button("ANIMAL FIVE") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                NavigationLink(destination: AnimalFourView()){
+                    Text("ANIMAL FOUR")
                 }
                 Spacer()
             }
@@ -88,8 +80,8 @@ struct ContentView: View {
             
             HStack {
                 Text("-")
-                Button("ANIMAL SIX") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                NavigationLink(destination: AnimalFiveView()){
+                    Text("ANIMAL FIVE")
                 }
                 Spacer()
             }
@@ -99,8 +91,8 @@ struct ContentView: View {
             
             HStack {
                 Text("-")
-                Button("ANIMAL SEVEN") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                NavigationLink(destination: AnimalSixView()){
+                    Text("ANIMAL SIX")
                 }
                 Spacer()
             }
@@ -110,8 +102,19 @@ struct ContentView: View {
             
             HStack {
                 Text("-")
-                Button("ANIMAL EIGHT") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                NavigationLink(destination: AnimalSevenView()){
+                    Text("ANIMAL SEVEN")
+                }
+                Spacer()
+            }
+            
+            Spacer()
+                .frame(height: 5.0)
+            
+            HStack {
+                Text("-")
+                NavigationLink(destination: AnimalEightView()){
+                    Text("ANIMAL EIGHT")
                 }
                 Spacer()
             }
@@ -124,7 +127,7 @@ struct ContentView: View {
             
             
             Spacer()
-   
+        }
         }
         .padding()
     }
