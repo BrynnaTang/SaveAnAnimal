@@ -10,11 +10,13 @@ import SwiftUI
 struct AnimalFourView: View {
     var body: some View {
         VStack{
-            Text("(ANIMAL FOUR NAME)")
+            Text("SEA TURTLES")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             HStack{
-                Image("Image Placeholder")
+                Image("seaturtle")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
                 Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
                     .multilineTextAlignment(.leading)
                     .lineLimit(9)
