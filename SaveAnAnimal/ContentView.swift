@@ -25,7 +25,7 @@ struct ContentView: View {
                 Spacer()
             }
             HStack{
-                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT")
                 Spacer()
             }
             
