@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct AnimalSevenView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Animal Seven View"/*@END_MENU_TOKEN@*/)
+    var body: some View { VStack{
+        Text("(ANIMAL SEVEN NAME)")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+        HStack{
+            Image("Image Placeholder")
+            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                .multilineTextAlignment(.leading)
+                .lineLimit(9)
+                
+        }
+        .padding([.top, .leading, .trailing])
+        
+        
+        Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+            
+        Spacer()
+
+    }Text(/*@START_MENU_TOKEN@*/"Animal Seven View"/*@END_MENU_TOKEN@*/)
     }
 }
 
