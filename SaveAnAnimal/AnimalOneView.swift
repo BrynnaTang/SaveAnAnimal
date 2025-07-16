@@ -10,23 +10,28 @@ import SwiftUI
 struct AnimalOneView: View {
     var body: some View {
         VStack{
-            Text("(ANIMAL ONE NAME)")
+            Text("SOUTH SEA OTTER")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             HStack{
-                Image("Image Placeholder")
-                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                Image("Sea Otter")
+                    
+                    
+                Text("The south sea otter (Enhydra lutris nereis) was once hunted to the brink of extinction for their fur in the 18th and 19th centuries. Since then, they have experienced a")
+                    .fontWeight(.semibold)
                     .multilineTextAlignment(.leading)
-                    .lineLimit(9)
+                    
                     
             }
             .padding([.top, .leading, .trailing])
             
             
-            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+            Text("slow recovery under protections of the federal law in the 1970s. As of 2025, they are still classified as a threatened species under the U.S. Endangered Species Act (ESA) and are listed as endangered by the International Union for Conservation of Nature (IUCN) due to many factors, including climate change, habitat loss, and a lack of prey.")
+                .fontWeight(.semibold)
+            
+                .padding([.leading, .bottom, .trailing])
                 
             Spacer()
-
         }
      
     }
@@ -35,3 +40,14 @@ struct AnimalOneView: View {
 #Preview {
     AnimalOneView()
 }
+
+
+//Southern Sea Otter
+
+//The south sea otter (Enhydra lutris nereis) was once hunted to the brink of extinction for their fur in the 18th and 19th centuries. Since then, they have experienced a slow recovery under protections of the federal law in the 1970s. As of 2025, they are still classified as a threatened species under the U.S. Endangered Species Act (ESA) and are listed as endangered by the International Union for Conservation of Nature (IUCN) due to many factors, including climate change, habitat loss, and a lack of prey.
+
+
+
+//Sunda Tiger
+
+//The Sunda tiger, also known as the Sumatran tiger, is the only surviving tiger population in the Sunda Islands, where the Bali and Javan tigers are extinct. With an estimated less than 400 individuals remaining, they are classified as critically endangered by the International Union for Conservation of Nature (IUCN) due to threats such as habitat loss, poaching, and a lack of prey.
