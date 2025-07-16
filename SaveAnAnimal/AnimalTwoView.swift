@@ -10,20 +10,23 @@ import SwiftUI
 struct AnimalTwoView: View {
     var body: some View {
         VStack{
-            Text("(ANIMAL TWO NAME)")
+            Text("SUNDA TIGER")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             HStack{
-                Image("Image Placeholder")
-                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                Image("Sumatran Tiger")
+                Text("The Sunda tiger, also known as the Sumatran tiger, is the only surviving tiger population in the Sunda Islands, where the Bali and Javan tigers are extinct. With an ")
+                    .fontWeight(.semibold)
                     .multilineTextAlignment(.leading)
-                    .lineLimit(9)
+               
                     
             }
             .padding([.top, .leading, .trailing])
             
             
-            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+            Text("estimated less than 400 individuals remaining, they are classified as critically endangered by the International Union for Conservation of Nature (IUCN) due to threats such as habitat loss, poaching, and a lack of prey.")
+                .fontWeight(.semibold)
+                .padding([.leading, .bottom, .trailing])
                 
             Spacer()
 
@@ -34,3 +37,7 @@ struct AnimalTwoView: View {
 #Preview {
     AnimalTwoView()
 }
+
+//Sunda Tiger
+
+//T
