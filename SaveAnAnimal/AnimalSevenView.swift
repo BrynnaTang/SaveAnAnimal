@@ -15,6 +15,8 @@ struct AnimalSevenView: View {
             .fontWeight(.bold)
         HStack{
             Image("Image Placeholder")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
             Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
                 .multilineTextAlignment(.leading)
                 .lineLimit(9)
@@ -27,7 +29,6 @@ struct AnimalSevenView: View {
             
         Spacer()
 
-    }
     }
 }
 
