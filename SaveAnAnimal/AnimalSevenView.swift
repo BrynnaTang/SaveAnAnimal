@@ -9,9 +9,21 @@ import SwiftUI
 
 struct AnimalSevenView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Animal Seven View"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                Text("RED PANDAS")
+                HStack {
+                    Image("panda")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                    Text("placeholder")
+                }
+                
+                }
+            }
+        }
     }
-}
+
 
 #Preview {
     AnimalSevenView()
