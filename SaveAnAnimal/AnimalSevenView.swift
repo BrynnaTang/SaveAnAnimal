@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct AnimalSevenView: View {
-    var body: some View { VStack{
+    var body: some View {
+        VStack{
         Text("(ANIMAL SEVEN NAME)")
             .font(.largeTitle)
             .fontWeight(.bold)
@@ -26,7 +27,7 @@ struct AnimalSevenView: View {
             
         Spacer()
 
-    }Text(/*@START_MENU_TOKEN@*/"Animal Seven View"/*@END_MENU_TOKEN@*/)
+    }
     }
 }
 
