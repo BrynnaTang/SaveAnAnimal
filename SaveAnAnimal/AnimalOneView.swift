@@ -9,7 +9,26 @@ import SwiftUI
 
 struct AnimalOneView: View {
     var body: some View {
-        Text("Animal One View")
+        VStack{
+            Text("(ANIMAL ONE NAME)")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            HStack{
+                Image("Image Placeholder")
+                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(9)
+                    
+            }
+            .padding([.top, .leading, .trailing])
+            
+            
+            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                
+            Spacer()
+
+        }
+     
     }
 }
 
