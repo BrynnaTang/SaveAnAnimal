@@ -10,28 +10,28 @@ import SwiftUI
 struct AnimalSevenView: View {
     var body: some View {
         VStack{
-        Text("(ANIMAL SEVEN NAME)")
-            .font(.largeTitle)
-            .fontWeight(.bold)
-        HStack{
-            Image("Image Placeholder")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
-            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
-                .multilineTextAlignment(.leading)
-                .lineLimit(9)
+            Text("(ANIMAL SEVEN NAME)")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            HStack{
+                Image("Image Placeholder")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(9)
                 
-        }
-        .padding([.top, .leading, .trailing])
-        
-        
-        Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+            }
+            .padding([.top, .leading, .trailing])
             
-        Spacer()
-
+            
+            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
+            
+            Spacer()
+            
+        }
     }
 }
-
 #Preview {
     AnimalSevenView()
 }
