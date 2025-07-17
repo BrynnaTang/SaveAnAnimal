@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
+
             
                 
             NavigationStack{
@@ -94,8 +94,7 @@ struct ContentView: View {
                     }
                     
                 }
-                .background(Color("IDK"))
-                
+
             }
             
         }

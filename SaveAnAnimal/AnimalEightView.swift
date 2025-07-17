@@ -10,11 +10,15 @@ import SwiftUI
 struct AnimalEightView: View {
     var body: some View {
         VStack{
-            Text("(ANIMAL EIGHT NAME)")
+            Color(red: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/, green: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/, blue: /*@START_MENU_TOKEN@*/0.5/*@END_MENU_TOKEN@*/)
+                .ignoresSafeArea()
+            Text("BLACK-FOOTED FERRET")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             HStack{
-                Image("Image Placeholder")
+                Image("ferret")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
                 Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
                     .multilineTextAlignment(.leading)
                     .lineLimit(9)
