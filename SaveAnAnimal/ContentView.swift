@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
-            
-                
+        
+        
+        ZStack{
+            Color(.red)
+                .ignoresSafeArea()
             NavigationStack{
                 ZStack{
                     
@@ -22,38 +24,21 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .fontWeight(.bold)
                         Spacer()
-                        
-                        
                         Text("OUR MISSION/ABOUT THE APP:")
                             .font(.title3)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.leading)
                         Spacer()
-                        
-                        HStack{
-                            Text("Our mission is to prevent animals from going extinct and convince people on why they should help.")
-                            Spacer()
-                        }
-                        
+                        Text("Our mission is to prevent animals from going extinct and convince people on why they should help.")
+                            .padding()
                         Spacer()
-                            .frame(height: 40.0)
-                        
-                        
-                        
                         Text("LIST OF ENDANGERED ANIMALS:")
                             .fontWeight(.bold)
                         Spacer()
-                        
-                        Spacer()
-                        
-                        
-                        //Text("-")
                         NavigationLink(destination: AnimalOneView()){
                             Text("Southern Sea Otter")
                                 .fontWeight(.bold)
                         }
-                        
-                        
                         Spacer()
                         NavigationLink(destination: AnimalTwoView()){
                             Text("Sumatran Tiger")
@@ -70,36 +55,34 @@ struct ContentView: View {
                                 .fontWeight(.bold)
                         }
                         Spacer()
-                        Text("-")
                         NavigationLink(destination: AnimalFiveView()){
                             Text("Black Rhino")
                                 .fontWeight(.bold)
                         }
                         Spacer()
-                        Text("-")
                         NavigationLink(destination: AnimalSixView()){
                             Text("Cheetah")
                                 .fontWeight(.bold)
                         }
-                        Text("-")
+                        Spacer()
                         NavigationLink(destination: AnimalSevenView()){
-                            Text("ANIMAL SEVEN")
+                            Text("Red Panda")
+                                .fontWeight(.bold)
                         }
                         Spacer()
-                        Text("-")
                         NavigationLink(destination: AnimalEightView()){
-                            Text("ANIMAL EIGHT")
+                            Text("Black-Footed Ferret")
+                                .fontWeight(.bold)
+                            
                         }
                         Spacer()
                     }
-                    
+                    .background(Color("IDK"))
                 }
-
             }
-            
         }
     }
-        
+}
         
 
 
