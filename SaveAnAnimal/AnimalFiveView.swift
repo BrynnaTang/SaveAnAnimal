@@ -10,7 +10,7 @@ import SwiftUI
 struct AnimalFiveView: View {
     var body: some View {
         VStack{
-            Text("(Black Rhino)")
+            Text("Black Rhino")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             HStack{
