@@ -9,57 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack{
-            VStack {
-                HStack{
-                    Text("SAVE AN ANIMAL")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                    Spacer()
-                }
-                HStack{
-                    NavigationLink(destination: MissionView()) {
-                        Text("Our Mission")
-                            .fontWeight(.bold)
-                        
-                        Spacer()
-                            .frame(width: 25.0)
-                        
-                        NavigationLink(destination: ListView()) {
-                            Text("Endangered Animals")
-                                .fontWeight(.bold)
-                            
-                            Spacer()
-                            
-                            NavigationLink(destination: DonateView()) {
-                                Text("Donate")
-                                    .fontWeight(.bold)
-                            }
+
                         }
+                        Spacer()
+                        Text("-")
+                        NavigationLink(destination: AnimalSixView()){
+                            Text("Cheetah")
+                                .fontWeight(.bold)
+                        }
+                        Text("-")
+                        NavigationLink(destination: AnimalSevenView()){
+                            Text("ANIMAL SEVEN")
+                        }
+                        Spacer()
+                        Text("-")
+                        NavigationLink(destination: AnimalEightView()){
+                            Text("ANIMAL EIGHT")
+                        }
+                        Spacer()
                     }
+                    
                 }
-                
-                HStack{
-                    Text("OUR MISSION/ABOUT THE APP:")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.leading)
-                    Spacer()
-                }
-                HStack{
-                    Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT")
-                    Spacer()
-                }
-                
-                Spacer()
-       
-                
-                
-            }
-            .padding()
+
         }
     }
-}
+        
+        
+
 
 #Preview {
     ContentView()
