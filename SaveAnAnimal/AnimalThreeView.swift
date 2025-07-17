@@ -29,7 +29,7 @@ struct AnimalThreeView: View {
                         .padding([.top, .leading, .trailing])
             
                 }
-                .background(Color(red:108/255, green:124/255, blue:89/255))
+                .background(Color(red:79/255, green:121/255, blue:66/255))
                 .cornerRadius(15)
                 .padding()
             
