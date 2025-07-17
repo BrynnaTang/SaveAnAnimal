@@ -20,7 +20,7 @@ struct AnimalFourView: View {
                     Image("seaturtle")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
-                    Text("Did you know: The sand temperatures at a turtle's nesting site determines the gender of the hatchling. Warm temperatures produce females, and cooler temperatures produce males.")
+                    Text("Did you know: The sand temperatures at a turtle's nesting site determines the gender of the hatchling.")
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                 
