@@ -17,6 +17,25 @@ struct ContentView: View {
                     .fontWeight(.bold)
                 Spacer()
             }
+                HStack{
+                    NavigationLink(destination: MissionView()) {
+                        Text("Our Mission")
+                        
+                        Spacer()
+                            .frame(width: 31.0)
+                        
+                        NavigationLink(destination: ListView()) {
+                            Text("Endangered Animals")
+                            
+                        Spacer()
+                            
+                            NavigationLink(destination: DonateView()) {
+                                Text("Donate")
+                            }
+                        }
+                    }
+                }
+                
             HStack{
                 Text("OUR MISSION/ABOUT THE APP:")
                     .font(.title3)
