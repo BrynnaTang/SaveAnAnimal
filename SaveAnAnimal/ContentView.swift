@@ -43,7 +43,8 @@ struct ContentView: View {
             HStack {
                 Text("-")
                 NavigationLink(destination: AnimalOneView()){
-                    Text("ANIMAL ONE")
+                    Text("South Sea Otter")
+                        .fontWeight(.bold)
                 }
              
                 Spacer()
