@@ -22,6 +22,7 @@ struct AnimalSixView: View {
                     .lineLimit(19)
                     
             }
+            .background(Color("dersertsand "))
             .padding([.top, .leading, .trailing])
             
             

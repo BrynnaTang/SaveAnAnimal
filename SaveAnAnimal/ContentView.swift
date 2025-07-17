@@ -11,12 +11,13 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             VStack {
-            HStack{
+                HStack(){
                 Text("SAVE AN ANIMAL")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 Spacer()
             }
+            .background(Color("Nature "))
             HStack{
                 Text("OUR MISSION/ABOUT THE APP:")
                     .font(.title3)
@@ -25,7 +26,7 @@ struct ContentView: View {
                 Spacer()
             }
             HStack{
-                Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT")
+                Text("Our mission is to prevent animals from going extinct and convince people on why they should help.")
                 Spacer()
             }
             
