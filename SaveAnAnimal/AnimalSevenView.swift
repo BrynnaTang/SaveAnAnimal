@@ -32,6 +32,4 @@ struct AnimalSevenView: View {
         }
     }
 }
-#Preview {
-    AnimalSevenView()
-}
+

@@ -19,7 +19,7 @@ struct AnimalFiveView: View {
                     .aspectRatio(contentMode: .fit)
                 Text("Between 1960 and 1995, the number of black rhinos dropped by a huge amount of 98%, to less than 2,500 individuals. Thanks to the amount of effort put in all across Africa, black rhino numner have doubled from their lowest point 20 years ago to more than 6,000 today. ")
                     .multilineTextAlignment(.leading)
-                    .lineLimit(15)
+                    .lineLimit(19)
                 
             }
             .padding([.top, .leading, .trailing])
