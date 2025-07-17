@@ -110,7 +110,8 @@ struct ContentView: View {
             HStack {
                 Text("-")
                 NavigationLink(destination: AnimalSevenView()){
-                    Text("ANIMAL SEVEN")
+                    Text("Red Panda")
+                        .fontWeight(.bold)
                 }
                 Spacer()
             }
@@ -121,7 +122,8 @@ struct ContentView: View {
             HStack {
                 Text("-")
                 NavigationLink(destination: AnimalEightView()){
-                    Text("ANIMAL EIGHT")
+                    Text("Black-Footed Ferret")
+                        .fontWeight(.bold)
                 }
                 Spacer()
             }
