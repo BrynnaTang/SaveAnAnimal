@@ -21,7 +21,7 @@ struct AnimalOneView: View {
                     Image("Sea Otter")
                     
                     
-                    Text("The south sea otter (Enhydra lutris nereis) was once hunted to the brink of extinction for their fur in the 18th and 19th centuries.")
+                    Text("The southern sea otter was once hunted to the brink of extinction for their fur in the 18-1900s.")
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.leading)
                     
