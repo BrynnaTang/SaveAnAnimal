@@ -9,32 +9,44 @@ import SwiftUI
 
 struct AnimalOneView: View {
     var body: some View {
-        VStack{
-            Text("SOUTH SEA OTTER")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-            HStack{
-                Image("Sea Otter")
+        ZStack {
+          
+           
+            
+            VStack{
+                Text("SOUTHERN SEA OTTER")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                HStack{
+                    Image("Sea Otter")
                     
                     
-                Text("The south sea otter (Enhydra lutris nereis) was once hunted to the brink of extinction for their fur in the 18th and 19th centuries. Since then,")
+                    Text("The south sea otter (Enhydra lutris nereis) was once hunted to the brink of extinction for their fur in the 18th and 19th centuries.")
+                        .fontWeight(.semibold)
+                        .multilineTextAlignment(.leading)
+                    
+                    
+                }
+                .padding([.top, .leading, .trailing])
+                
+                
+                .background(Color(red:147/255, green:102/255, blue:57/255))
+                .cornerRadius(15)
+                
+                Text("Since then, they have experienced a slow recovery under protections of the federal law in the 1970s. As of 2025, they are still classified as a threatened species under the U.S. Endangered Species Act (ESA) and are listed as endangered by the International Union for Conservation of Nature (IUCN) due to many factors, including climate change, habitat loss, and a lack of prey.")
                     .fontWeight(.semibold)
-                    .multilineTextAlignment(.leading)
-                    
+                
+                    .padding([.leading, .bottom, .trailing])
+                
+                Spacer()
+                   
                     
             }
-            .padding([.top, .leading, .trailing])
-            
-            
-            Text("they have experienced a slow recovery under protections of the federal law in the 1970s. As of 2025, they are still classified as a threatened species under the U.S. Endangered Species Act (ESA) and are listed as endangered by the International Union for Conservation of Nature (IUCN) due to many factors, including climate change, habitat loss, and a lack of prey.")
-                .fontWeight(.semibold)
-            
-                .padding([.leading, .bottom, .trailing])
-                
-            Spacer()
+           
         }
-     
+        .background (Color(red:166/255, green:138/255, blue:100/255))
     }
+
 }
 
 #Preview {
