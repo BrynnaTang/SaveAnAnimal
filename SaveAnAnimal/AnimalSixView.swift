@@ -19,7 +19,7 @@ struct AnimalSixView: View {
                     .aspectRatio(contentMode: .fit)
                 Text("Cheetahs are found in southern and eastern Africa, with a small critically endangered population of cheetahs in Iran. They once sprawled through vast landscapes, cheetahs have adapted to life in many habitats like grasslanda, deserts, etc.")
                     .multilineTextAlignment(.leading)
-                    .lineLimit(19)
+                    .lineLimit(20)
                 
                 
                     .background(Color("dersertsand "))
