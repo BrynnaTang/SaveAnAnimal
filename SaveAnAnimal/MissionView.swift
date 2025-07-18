@@ -9,7 +9,29 @@ import SwiftUI
 
 struct MissionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color("HomeColorBG")
+                .ignoresSafeArea()
+            VStack{
+                
+                Text("Our Mission")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                Spacer()
+                    .frame(height: 15.0)
+                Text("We hope that our app can spread awareness about animals that are endangered and are in need of help.")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                
+                
+                    .padding()
+                
+                
+                Spacer()
+                
+            }
+        }
     }
 }
 
