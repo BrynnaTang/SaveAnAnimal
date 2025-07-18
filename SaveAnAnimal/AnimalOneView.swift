@@ -11,7 +11,8 @@ struct AnimalOneView: View {
     var body: some View {
         ZStack {
           
-           
+           (Color(red:166/255, green:138/255, blue:100/255))
+                .ignoresSafeArea()
             
             VStack{
                 Text("SOUTHERN SEA OTTER")
@@ -44,7 +45,8 @@ struct AnimalOneView: View {
             }
            
         }
-        .background (Color(red:166/255, green:138/255, blue:100/255))
+       
+        
     }
 
 }
