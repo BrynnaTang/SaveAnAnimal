@@ -32,8 +32,7 @@ struct AnimalSevenView: View {
             .padding([.top, .leading, .trailing])
             
             
-            Text("TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT ")
-                
+            Text("The global red panda population has declines by 50% in 20 years and there may be as few as 2,500 remaining in the wild. Their habitat is being fragmented by projects including roads and mining. By protecting their habitat, we also provide our planet with the benefits of tress, including cleaner oceans and air.")
             Spacer()
 
         }
