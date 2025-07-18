@@ -21,7 +21,7 @@ struct AnimalSevenView: View {
                 Image("panda")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                Text("Did you know that these adorable little faces actually help these pandas survive?")
+                Text("Did you know that these adorable little faces actually help these pandas survive? The white on their face is 'almost luminescent' and can guide a mother's lost cubs in the darkness!")
                     .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
                 
